@@ -17,7 +17,7 @@ This simple libaray provide an abstract Category class for django whitch does no
     ```python
     INSTALLED_APPS = [
         ...
-        'simple-category',
+        'category',
     ]
     ```
 
