@@ -19,20 +19,17 @@ Usage
 
 1. Add "simple-category" to your INSTALLED_APPS setting like this::
 
-    ``
+.. code:: python
     INSTALLED_APPS = [
         'category',
     ]
-    ``
 
 2. Inherit from the Category class like this::
 
-    ``
+.. code:: python
     from simple_category.models import Category
 
     class MyCategory(Category):
         pass
-    ``
 
 3. Run `python manage.py migrate` to create your category models.
-
