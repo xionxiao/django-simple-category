@@ -10,17 +10,16 @@ This simple libaray provide an abstract Category class for django whitch does no
 
 ## Install
 
-    ```shell
+```shell
     pip install django-simple-category
-    ```
+```
 
 ## Usage
 
-1. Add "simple-category" to your INSTALLED_APPS setting like this::
+1. Add "simple-category" to your INSTALLED_APPS setting like this:
 
     ```python
     INSTALLED_APPS = [
-        ...
         'category',
     ]
     ```
