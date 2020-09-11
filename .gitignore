@@ -1,9 +1,10 @@
 .env
 venv
+dist
 __pycache__/
 *.py[cod]
 *.log
+*.egg-info
 .vscode
 .idea
-
 .DS_Store

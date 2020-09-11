@@ -1,33 +1,38 @@
-# Django Simple Category
+======================
+Django Simple Category
+======================
 
-> A simple django category libaray
+A simple django category libaray
 
 This simple libaray provide an abstract Category class for django whitch does not need MPTT support.
 
-## Feature overview
+Feature overview
+----------------
 
-- Abstract Category class
+Abstract Category class
 
-## Install
+Install
+-------
 
-## Usage
+Usage
+-----
 
 1. Add "simple-category" to your INSTALLED_APPS setting like this::
 
-    ```python
+    ``
     INSTALLED_APPS = [
-        ...
         'category',
     ]
-    ```
+    ``
 
-2. Inherit from the Category class like this:
+2. Inherit from the Category class like this::
 
-    ```python
+    ``
     from simple_category.models import Category
 
     class MyCategory(Category):
         pass
-    ```
+    ``
 
 3. Run `python manage.py migrate` to create your category models.
+
