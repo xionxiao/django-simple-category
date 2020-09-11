@@ -14,7 +14,7 @@ Abstract Category class
 Install
 -------
 
-.. code:: shell
+::
 
     $ pip install django-simple_category
 
@@ -40,4 +40,8 @@ Usage
         pass
 
 
-3. Run `python manage.py migrate` to create your category models.
+3. Run migrations::
+
+::
+
+    $ python manage.py migrate
