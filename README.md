@@ -1,3 +1,5 @@
+[![PyPI version](https://badge.fury.io/py/pip.svg)](https://badge.fury.io/py/pip)
+
 # Django Simple Category
 
 > A simple django category libaray
