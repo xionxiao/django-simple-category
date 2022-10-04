@@ -13,7 +13,7 @@ This simple libaray provide an abstract Category class for django whitch does no
 ## Install
 
 ```shell
-    pip install django-simple-category
+pip install django-simple-category
 ```
 
 ## Usage
